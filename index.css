@@ -1,0 +1,59 @@
+body {
+    background-color: yellow;
+}
+
+h1 {
+    position:absolute;
+    left: 42%;
+    font-size: 4em;
+}
+
+#grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    justify-items:center;
+    align-items:center;
+}
+
+p {
+    position: relative;
+    top: 75px;
+    width: 24vw;
+    height: 75vh;
+    font-size: 4rem;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;  
+}
+
+.purple {
+    background-color: purple;
+}
+
+p > img {
+    height:50pt;
+    position:relative;
+}
+
+nav {
+    position:absolute;
+    bottom: 40px;
+    left:45%
+}
+
+button {
+    color:rgb(255, 0, 0);
+    text-align:center;
+    display: inline-block;
+    font-size: 25px;
+}
